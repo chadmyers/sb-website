@@ -49,17 +49,27 @@ table {
 
 /* Style */
 
+html {
+  background: url('../images/minecraft.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background: #D1D1D1;
+  line-height: 1.5;  
 }
 
 a {
-  color: #63a52a;
+  color: #E70707;
   text-decoration: none;
-  -webkit-transition: color ease-in-out 0.3s;
+  -webkit-transition: color ease-in-out 1.0s;
+}
+
+.creds a{
+  color: #E7E707;
 }
 
 a:hover {
